@@ -1,0 +1,85 @@
+/* 
+CSS PERSONALIZADO THEME LAMBDA
+===============================
+*/
+
+
+/* HACE QUE LOS ICONOS DE LOS BLOQUES SEAN DEL MISMO COLOR
+*/
+.block .header .title h2:before {
+    background-color: #095290 !important;
+}
+
+/* COLOR Y EFECTO EN LOS ICONOS DE CONTRASEÑA Y OTROS EN LA PORTADA
+*/
+.coursebox .enrolmenticons img
+{mix-blend-mode: hard-light !important;
+background: rgb(88, 171, 219) !important;
+}
+
+/* MUESTRA LA CAJA PARA BÚSQUEDA DE CURSOS EN LA PORTADA
+*/
+fieldset.coursesearchbox {
+    display: unset;
+}
+
+/* PONE EN NEGRITA EL NOMBRE DE LAS ACTIVIDADES */
+.instancename {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+
+/* AUMENTA EL INTERLINEADO EN EL TÍTULO DEL LIBRO */
+.path-mod-book #region-main>div>h2 {
+    line-height: 2rem;
+    margin-bottom: 5px;
+}
+.path-mod-book .generalbox.book_content>h3 {
+    line-height: 2rem;
+    margin-top: 3px;
+}
+
+/* COLOR DE TEMA DESTACADO EN UN CURSO */
+.course-content .current {
+    background-color: #fff !important;
+}
+
+.course-content .current .content h3.sectionname {
+    padding: 8px;
+    border-color: #EEE #EEEEEE #EEE #f0ad4e;
+    font-size: 1.5rem;
+}
+
+.course-content ul li.section.main.current {
+    padding: 8px 0 !important;
+    box-shadow: 3px 3px 8px 1px #9999994d;
+    background: none;
+    margin: 10px 0 10px;
+}
+
+/* IMAGEN DE USUARIO EN EL BLOQUE DE USUARIO IDENTIFICADO */
+.block_myprofile img.profilepicture {
+    border-radius: 250px;
+}
+.myprofileitem.picture:hover {
+    border-radius: 250px;
+}
+.myprofileitem.picture {
+    border-radius: 250px;
+}
+
+
+/* BIGBLUEBUTTON */
+img.iconsmall {
+    height: 16px;
+    width: 16px;
+}
+
+/* ALINEACIÓN DE RELOJ EN PORTADA */
+.block_simple_clock .clock {
+    padding-left: 0px;
+    color: cornflowerblue;
+}
+
+/* actualizado 23 set 2021 */
